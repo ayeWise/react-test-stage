@@ -1,0 +1,38 @@
+.faqHeader {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    min-height: 665px;
+    padding-bottom: 40px;
+    padding-top: 175px;
+    position: relative;
+    width: 100%;
+
+}
+
+.faqHeader h1 {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 4.5rem;
+    padding-top: 300px;
+    color: white;
+}
+
+.faqHeader p {
+    color: white;
+}
+
+.faqBottom {
+    padding: 100px;
+}
+.faqBottom h1 {
+    font-family: cursive;
+    color: rgb(0, 0, 0);   
+}
+
+.faqBottom p {
+    font-size: 14pt;
+}

@@ -1,0 +1,129 @@
+.navbar {
+    background-color: #121619;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .navLinks {
+    height: 100%;
+    display: flex;
+
+}
+
+.navbar .navLinks a {
+    padding-inline: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #121619;
+}
+.link1  a:hover {
+    background-color: rgb(255, 255, 255);
+    transition: .3s ease-in;
+    font-size: 150%;
+    padding-block: 20px;
+    color: black;
+  }
+
+.link2  a:hover {
+  background-color: rgb(255, 255, 255);
+  transition: .3s ease-in;
+  font-size: 150%;
+  padding-block: 20px;
+  color: black;
+}
+
+.link3  a:hover {
+  background-color: rgb(255, 255, 255);
+  transition: .3s ease-in;
+  font-size: 150%;
+  padding-block: 20px;
+  color: black;
+}
+
+.link4 a:hover {
+  background-color: rgb(255, 255, 255);
+  transition: .3s ease-in;
+  font-size: 150%;
+  padding-block: 20px;
+  color: black;
+}
+
+
+.navbar img {
+  width: 70px;
+  margin-inline: 40px;
+}
+
+
+.navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar .rightSide svg {
+    font-size: 40px;
+  }
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+}

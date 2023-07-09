@@ -1,0 +1,15 @@
+.termsHead {
+    display: flex;
+    flex-direction: column;
+}
+
+.termsHead h1 {
+    background-color: rgb(240, 56, 56);
+    padding: 100px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.shortBlock {
+
+    text-align: left;
+}
